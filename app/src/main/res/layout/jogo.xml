@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/jogadores_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <!--android:layout_marginBottom="10dp">-->
+
+        <!--<TextView
+            android:text="#"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>-->
+
+        <TextView
+            android:id="@+id/jogador1_TextView"
+            android:text="Jogador1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance=
+                "?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:id="@+id/jogador2_TextView"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Jogador2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance=
+                "?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:id="@+id/jogador3_TextView"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Jogador3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance=
+                "?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:id="@+id/jogador4_TextView"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Jogador4"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAppearance=
+                "?android:attr/textAppearanceLarge"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divisor"/>
+
+    <ScrollView
+        android:id="@+id/pontosRodadaEdit_ScroolView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TableLayout
+            android:id="@+id/placar_tablelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0, 1, 2, 3">
+
+            <!--<TableRow
+                android:gravity="center">
+                <TextView
+                    android:text="Rodada 0"
+                    android:gravity="center"
+                    android:textAppearance=
+                        "?android:attr/textAppearanceLarge"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textAppearance=
+                        "?android:attr/textAppearanceLarge"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textAppearance=
+                        "?android:attr/textAppearanceLarge"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textAppearance=
+                        "?android:attr/textAppearanceLarge"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textAppearance=
+                        "?android:attr/textAppearanceLarge"/>
+            </TableRow>-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divisor"/>
+
+        </TableLayout>
+
+    </ScrollView>
+
+        <!--android:layout_marginTop="10dp">-->
+        <TextView
+            android:id="@+id/rodada_atual_TextView"
+            android:text="@string/pontos_da_rodada1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance=
+                "?android:attr/textAppearanceLarge"  />
+
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/rodada_row_edit">
+        <!--<TextView
+            android:id="@+id/rodada_atual"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+    <LinearLayout
+        android:id="@+id/nomes_jogadores_pontos_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:text="Jogador1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Jogador2"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Jogador3"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Jogador4"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pontosRodadaEdit_LinearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/pontos_jogador1_EditText"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLength="3"
+            android:inputType="number"
+            android:nextFocusDown="@+id/pontos_jogador2_EditText"
+            android:focusable="true">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/pontos_jogador2_EditText"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLength="3"
+            android:inputType="number"
+            android:focusable="true"
+            android:nextFocusDown="@+id/pontos_jogador3_EditText">
+
+        </EditText>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/pontos_jogador3_EditText"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLength="3"
+            android:inputType="number"
+            android:focusable="true"
+            android:nextFocusDown="@+id/pontos_jogador4_EditText">
+        </EditText>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/pontos_jogador4_EditText"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLength="3"
+            android:inputType="number"
+            android:focusable="true"
+            android:nextFocusDown="@+id/pontos_jogador1_EditText">
+        </EditText>
+
+    </LinearLayout>
+
+    <!--Tornar visivel no fim do jogo-->
+
+    <TextView
+        android:id="@+id/totalFinal_TextView"
+        android:visibility="gone"
+        android:text="@string/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance=
+            "?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:id="@+id/total_LinearLayout"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/total_jogador1"
+            android:text="0"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/total_jogador2"
+            android:text="0"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/total_jogador3"
+            android:text="0"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/total_jogador4"
+            android:text="0"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botoes_LinearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/remover_Button"
+            android:text="Editar última rodada"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="editarUltimaRodada"/>
+
+        <Button
+            android:id="@+id/atualizar_Button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Pontuação"
+            android:onClick="atualizarJogo"/>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/novo_jogo_Button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_novo_jogo"/>
+
+    </LinearLayout>
+
+</LinearLayout>

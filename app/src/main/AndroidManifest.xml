@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jhonatan.quarentapontos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_quarenta_pontos"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar">
+
+        <activity android:name=".DashboardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".JogoActivity" />
+
+        <activity android:name=".JogadoresListActivity" />
+
+        <activity android:name=".RegrasActivity" />
+
+        <activity android:name=".NovoJogoActivity" />
+
+        <activity android:name=".JogadorActivity"
+                    android:windowSoftInputMode="stateVisible"/>
+
+        <activity android:name=".JogoListActivity" />
+
+        <activity android:name=".JogadoresRankingActivity" />
+
+    </application>
+
+</manifest>

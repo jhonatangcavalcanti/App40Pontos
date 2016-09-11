@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">40 Pontos</string>
+    <string name="novo_jogo">Novo Jogo</string>
+    <string name="historico">Histórico</string>
+    <string name="jogadores">Jogadores</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="nome_jogo">40 Pontos</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome">Nome</string>
+    <string name="selecionar_jogador">Selecionar Jogador</string>
+    <string name="total">Total</string>
+    <string name="rodada">Rodada</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="regras">Regras</string>
+    <string name="regra1">
+        <p>- Se algum jogador pegar 5 ou mais "gabões" em uma rodada, todas as peças devem ser embaralhadas novamente!</p>
+    </string>
+    <string name="rodada_1">Rodada 1</string>
+    <string name="adicionar_jogador">Adicionar Jogador</string>
+    <string name="criar_jogador">Criar Jogador</string>
+    <string name="iniciar_jogo">Iniciar Jogo</string>
+    <string name="salvo_sucesso">Salvo com sucesso</string>
+    <string name="erro_salvar">Erro ao salvar!</string>
+    <string name="insira_nome">Insira um nome!</string>
+    <string name="selecionar_jogadores">Selecione os jogadores</string>
+    <string name="iniciar_novo_jogo">Iniciar Novo Jogo</string>
+    <string name="historico_de_jogos">Histórico de Jogos</string>
+    <string name="rodadas">Rodadas</string>
+    <string name="selecionar_jogador1">Selecionar Jogador 1</string>
+    <string name="selecionar_jogador2">Selecionar Jogador 2</string>
+    <string name="selecionar_jogador3">Selecionar Jogador 3</string>
+    <string name="selecionar_jogador4">Selecionar Jogador 4</string>
+    <string name="jogador_selecionado_anteriormente">Jogador já foi selecionado anteriormente</string>
+    <string name="pontos_da_rodada">Pontos da Rodada</string>
+    <string name="pontos_da_rodada1">Pontos da Rodada 1</string>
+    <string name="jogo">Jogo</string>
+    <string name="nao_finalizado">NÃO FINALIZADO!</string>
+    <string name="jogos">Jogos</string>
+    <string name="vitorias">Vitórias</string>
+    <string name="derrotas">Derrotas</string>
+    <string name="saldo">Saldo</string>
+    <string name="historico_dos_jogadores">Histórico dos jogadores</string>
+    <string name="ranking_dos_jogadores">Ranking dos Jogadores</string>
+    <string name="maior_derrota">"Maior Derrota: "</string>
+    <string name="maior_vitoria">Maior Vitória:</string>
+    <string name="maiores_derrotas_registradas">Maior(es) Derrota(s) Registrada(s)</string>
+</resources>

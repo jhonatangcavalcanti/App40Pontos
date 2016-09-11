@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divisor"/>
+
+    <TextView
+        android:id="@+id/jogo_cont_TextView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:background="@color/cinza"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divisor"/>
+
+    <LinearLayout
+        android:background="@color/cinza"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--android:text="Rodadas: 10"-->
+        <TextView
+            android:textColor="@color/preto"
+            android:id="@+id/rodadas_TextView"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <!--android:text="09/07/2016"-->
+        <TextView
+            android:textColor="@color/preto"
+            android:id="@+id/data_TextView"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/cinza"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--android:text="jogador1"-->
+        <TextView
+            android:textColor="@color/preto"
+            android:id="@+id/jogador1_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <!--android:text="jogador2"-->
+        <TextView
+            android:textColor="@color/preto"
+            android:id="@+id/jogador2_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <!--android:text="jogador3"-->
+        <TextView
+            android:textColor="@color/preto"
+            android:id="@+id/jogador3_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <!--android:text="jogador4"-->
+        <TextView
+            android:textColor="@color/preto"
+            android:id="@+id/jogador4_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/cinza"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--android:text="40"-->
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/jogador1_pontos_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <!--android:text="40"-->
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/jogador2_pontos_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <!--android:text="40"-->
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/jogador3_pontos_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <!--android:text="40"-->
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/jogador4_pontos_TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

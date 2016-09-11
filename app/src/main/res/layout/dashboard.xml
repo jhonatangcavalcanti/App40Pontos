@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="@color/branco"
+        android:textColor="@color/preto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/nome_jogo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:background="@color/branco"
+        android:text="@string/maiores_derrotas_registradas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/perdedor"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:background="@color/branco"
+        android:id="@+id/maior_derrota_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/maiores_derrotados_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="@color/cinza"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/novo_jogo"
+        android:id="@+id/novo_jogo"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        />
+
+    <TextView
+        android:background="@color/cinza"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/historico_de_jogos"
+        android:gravity="center"
+        android:id="@+id/historico"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <TextView
+        android:background="@color/cinza"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/ranking_dos_jogadores"
+        android:gravity="center"
+        android:id="@+id/jogadores"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <TextView
+        android:background="@color/cinza"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/regras"
+        android:gravity="center"
+        android:id="@+id/regras"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+
+</LinearLayout>

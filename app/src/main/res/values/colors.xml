@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="perdedor">#ff0400</color>
+    <color name="vencedor">#2ad100</color>
+    <color name="divisor">#9b9b9b</color>
+    <color name="branco">#ffffff</color>
+    <color name="cinza">#808080</color>
+    <color name="preto">#000000</color>
+</resources>

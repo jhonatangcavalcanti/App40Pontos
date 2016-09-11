@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novo_jogo"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance=
+            "?android:attr/textAppearanceLarge"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecionar_jogador1"
+            android:id="@+id/jogador1_criacao_jogo_Button"
+            android:onClick="selecionarJogador"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecionar_jogador2"
+            android:id="@+id/jogador2_criacao_jogo_Button"
+            android:onClick="selecionarJogador"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/jogador1_criacao_jogo_Button"
+            android:layout_alignLeft="@+id/jogador1_criacao_jogo_Button"
+            android:layout_alignStart="@+id/jogador1_criacao_jogo_Button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecionar_jogador3"
+            android:id="@+id/jogador3_criacao_jogo_Button"
+            android:onClick="selecionarJogador"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/jogador2_criacao_jogo_Button"
+            android:layout_alignLeft="@+id/jogador2_criacao_jogo_Button"
+            android:layout_alignStart="@+id/jogador2_criacao_jogo_Button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecionar_jogador4"
+            android:id="@+id/jogador4_criacao_jogo_Button"
+            android:onClick="selecionarJogador"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/jogador3_criacao_jogo_Button"
+            android:layout_alignLeft="@+id/jogador3_criacao_jogo_Button"
+            android:layout_alignStart="@+id/jogador3_criacao_jogo_Button" />
+
+    </RelativeLayout>
+
+    <Button
+        android:text="@string/iniciar_jogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="criarJogo"
+        android:textAppearance=
+            "?android:attr/textAppearanceLarge"
+        android:textStyle="bold"/>
+
+</LinearLayout>
